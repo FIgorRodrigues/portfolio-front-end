@@ -25,15 +25,22 @@ div li + li {
 button {
   background: #7159c1;
   color: #fff;
-  border: 0;
+  border: 1px solid #7159c1;
   padding: 10px 15px;
   cursor: pointer;
   margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
+  border-radius: 2px;
+}
+
+button:hover {
+  transition: 0.4s box-shadow;
+  box-shadow: 1px 2px 1px #525252;
 }
 
 div li button {
   margin: 0 15px;
+  border: 1px solid #ca4949;
   background: #ca4949;
 }
